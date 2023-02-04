@@ -1,13 +1,37 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Cutive Mono', monospace;
+  background-color: antiquewhite;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Tracker {
+  padding: 3rem;
+  background-color: olive;
+  width: 40vw;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+}
+
+.controlPanel {
+  padding: 0.5rem;
+  color: antiquewhite;
+  font-size: 1.3rem;
+}
+
+input {
+  font-family: 'Cutive Mono', monospace;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: antiquewhite;
+  background: rgb(128, 128, 0);
+  box-shadow: 1px 1px 3px black;
+  border: none;
+}
+
+button {
+  width: 9rem;
+  padding: 1rem;
+  margin: 0.5rem 0.2rem;
+  font-family: 'Cutive Mono', monospace;
+  margin-bottom: 1.5rem;
 }
